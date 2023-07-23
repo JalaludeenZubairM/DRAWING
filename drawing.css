@@ -1,0 +1,60 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+#canvas{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;  
+    background-color: black; 
+}
+.nav{
+    position: fixed;
+    top:10px;
+    left:50%;
+    transform: translate(-50%,0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:black;
+    column-gap: 10px;
+    padding:5px 20px;
+}
+div{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color:brown;
+}
+.red{
+    background-color: red;
+}
+.pink{
+    background-color:pink;
+}
+.brown{
+    background-color: brown;
+}
+.blue{
+    background-color: blue;
+}
+#font-size{
+    height: 50px;
+    width: 180px;
+    border-radius: 20px;
+    padding: 5px;
+}
+#submit{
+    padding: 10px;
+    border-radius:15px ;
+    background-color: blueviolet;
+}
+#submit:hover{
+    box-shadow: 2px 2px 20px 10px  #a3e4d7 ;
+}
